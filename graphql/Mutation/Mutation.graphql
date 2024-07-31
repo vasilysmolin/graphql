@@ -1,0 +1,7 @@
+type Mutation {
+  #import UserMutation.graphql
+  #import ArticleMutation.graphql
+  #import AuthMutation.graphql
+}
+
+

@@ -1,0 +1,8 @@
+type Query {
+  #import QueryUser.graphql
+  #import QueryArticle.graphql
+}
+
+
+
+

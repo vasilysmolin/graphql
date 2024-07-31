@@ -1,0 +1,6 @@
+  me: User @auth(guard: "api")
+  user(id: ID! @eq): User @find
+  users: [User!]! @paginate
+
+
+

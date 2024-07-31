@@ -1,0 +1,5 @@
+  article(id: ID! @eq): Article @find
+  articles(count: Int, page: Int): [Article!]! @paginate
+
+
+

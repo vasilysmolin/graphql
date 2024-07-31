@@ -1,0 +1,6 @@
+  login(
+      email: String!
+      password: String!
+    ): String @field(resolver: "AuthMutator@resolve")
+
+
